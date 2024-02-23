@@ -18,7 +18,9 @@ export default defineComponent({
   transition: 1s ease-in-out;
 }
 .botao:hover {
-  font-size: 100px;
-  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.1);
+  font-size: 80px;
+  box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px,
+    rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 46, 0.1) 20px 20px,
+    rgba(240, 46, 46, 0.05) 25px 25px;
 }
 </style>
